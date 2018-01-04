@@ -1,0 +1,6 @@
+
+/** QGraphicsView **/
+
+JView {
+    background-color: rgba(64, 64, 64, 100);
+}

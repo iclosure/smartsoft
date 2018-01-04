@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/jflowchart/qss">
+        <file alias="stylesheet_1.qss">stylesheet_1.qss</file>
+    </qresource>
+</RCC>

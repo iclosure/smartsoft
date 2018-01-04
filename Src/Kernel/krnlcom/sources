@@ -1,0 +1,38 @@
+!IF !$(FREEBUILD)
+DEBUG_STUF= d
+!ENDIF
+
+TARGETNAME= krnlcom$(DEBUG_STUF)
+TARGETTYPE= DRIVER_LIBRARY
+
+MSC_WARNING_LEVEL= /W4 /WX
+
+KMDF_VERSION_MAJOR= 1
+KMDF_VERSION_MINOR= 9
+
+NTTARGETFILES= 
+
+TARGETLIBS= $(TARGETLIBS)
+		   
+C_DEFINES= $(C_DEFINES) \
+# Disable deprecated function uage warnings
+	/wd4996	 \
+# Enable WDF module codes
+#	-DKERNEL_FRAMEWORK_WDF
+
+#!IF !$(FREEBUILD)
+#LINKER_FLAGS= -MAP:$(TARGETNAME).map
+#!ENDIF
+
+INCLUDES= $(INCLUDES)
+
+SOURCES= \
+	krnlcom.rc \
+	dbgprint.c \
+	circfifo.c \
+	strutils.c \
+	hrcrtlib.cpp
+	
+PRECOMPILED_INCLUDE= precomp.h
+PRECOMPILED_PCH= precomp.pch
+PRECOMPILED_OBJ= precomp.obj

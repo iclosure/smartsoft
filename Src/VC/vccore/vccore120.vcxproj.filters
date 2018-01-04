@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="serialport">
+      <UniqueIdentifier>{a00a231d-2148-4243-81a1-945c462e0748}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="network">
+      <UniqueIdentifier>{f2e85612-1c3a-4ac4-8747-6b7d15514fa1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="moxa">
+      <UniqueIdentifier>{8e990a0e-375f-42a2-ba78-bbedf7a42f86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="crc">
+      <UniqueIdentifier>{1a22c93b-c6fd-487c-b750-460545d5e309}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="criticalsection_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="criticasection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kobject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mmtimer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mutex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mutex_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="thread.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="thread_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vccore_global.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="waitcondition.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="waitcondition_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="circfifo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stringconvert.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="precitimer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="crc\lib_crc.h">
+      <Filter>crc</Filter>
+    </ClInclude>
+    <ClInclude Include="crc\t_crc.h">
+      <Filter>crc</Filter>
+    </ClInclude>
+    <ClInclude Include="serialport\serialport.h">
+      <Filter>serialport</Filter>
+    </ClInclude>
+    <ClInclude Include="moxa\pcomm.h">
+      <Filter>moxa</Filter>
+    </ClInclude>
+    <ClInclude Include="network\abstractsocket.h">
+      <Filter>network</Filter>
+    </ClInclude>
+    <ClInclude Include="network\tcpmultcast.h">
+      <Filter>network</Filter>
+    </ClInclude>
+    <ClInclude Include="network\udpmultcast.h">
+      <Filter>network</Filter>
+    </ClInclude>
+    <ClInclude Include="network\winsocketex.h">
+      <Filter>network</Filter>
+    </ClInclude>
+    <ClInclude Include="kstring.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resourcemgr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vccoreinc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vccore.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mmtimer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="criticalsection_p.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="criticasection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kobject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mutex.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mutex_p.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="thread.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="thread_p.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vccore_global.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="waitcondition.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="waitcondition_p.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stringconvert.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="precitimer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="crc\lib_crc.c">
+      <Filter>crc</Filter>
+    </ClCompile>
+    <ClCompile Include="crc\t_crc.c">
+      <Filter>crc</Filter>
+    </ClCompile>
+    <ClCompile Include="network\atractsocket.cpp">
+      <Filter>network</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kstring.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="vccore.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="export.def">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="buildex.bat" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,6 @@
+This example shows how to embed controls-based objects into QML.
+
+To run:
+
+  make install
+  qml controls.qml

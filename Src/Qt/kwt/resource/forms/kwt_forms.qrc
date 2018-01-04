@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/kwt/forms">
+        <file alias="test">test.ui</file>
+    </qresource>
+</RCC>

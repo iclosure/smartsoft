@@ -1,0 +1,11 @@
+LIBRARY
+
+;SECTIONS
+;	.shared READ WRITE SHARED
+	
+EXPORTS
+	make_crc_16
+	make_crc_32
+	make_crc_ccitt
+	make_crc_dnp
+	make_crc_kermit

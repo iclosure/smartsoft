@@ -1,0 +1,12 @@
+# -- path --, -- folder --
+
+., .
+Qt\kwt\src, Qt\Kwt-3.1.0\include
+Qt\kwt\src\serialport, Qt\Kwt-3.1.0\include\serialport
+Qt\qcustomplot\src, Qt\QCustomPlot-1.2.1\include
+Qt\qtwinmigrate\src, Qt\QWinmigrate-3.0.0\include
+Qt\qwt\src, Qt\Qwt-6.1.1\include
+Qt\qwtplot3d\3rdparty\gl2ps, Qt\qwtplot3d-0.2.7\include\3rdparty\gl2ps
+Qt\qwtplot3d\include, Qt\qwtplot3d-0.2.7\include
+Qt\qwtpolar\src, Qt\qwtpolar-1.1.0\include
+VC\tinyxml,Qt\tinyxml-2.6.2\include

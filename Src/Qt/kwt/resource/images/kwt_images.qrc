@@ -1,0 +1,37 @@
+<RCC>
+    <qresource prefix="/kwt/images/global">
+        <file alias="robot">global/robot.png</file>
+    </qresource>
+    <qresource prefix="/kwt/images/title_button">
+        <file alias="skin">title_button/skin_button.png</file>
+        <file alias="restore">title_button/sys_button_restore.png</file>
+        <file alias="close">title_button/sys_button_close.png</file>
+        <file alias="max">title_button/sys_button_max.png</file>
+        <file alias="min">title_button/sys_button_min.png</file>
+        <file alias="min2">title_button/sys_button_min2.png</file>
+        <file alias="dlg_close">title_button/sys_dlg_close.png</file>
+        <file alias="title_bar_menu">title_button/title_bar_menu.png</file>
+    </qresource>
+    <qresource prefix="/kwt/images/default">
+        <file alias="btn_green">default/btn_green.png</file>
+        <file alias="set_dlg_checkbox">default/set_dlg_checkbox.png</file>
+        <file alias="radiobutton">default/radiobutton.png</file>
+    </qresource>
+    <qresource prefix="/kwt/images/tool_button">
+        <file alias="bkg">tool_button/bkg.png</file>
+    </qresource>
+    <qresource prefix="/kwt/images/default/menu">
+        <file alias="bkg">default/menu/bkg.png</file>
+    </qresource>
+    <qresource prefix="/kwt/images/skins">
+        <file alias="default">skins/default.jpg</file>
+        <file alias="client_bkg">skins/client_bkg.jpg</file>
+        <file alias="widget_shadow">skins/widget_shadow.png</file>
+    </qresource>
+    <qresource prefix="/kwt/images/sysmenu">
+        <file alias="close">sysmenu/close.png</file>
+        <file alias="max">sysmenu/max.png</file>
+        <file alias="min">sysmenu/min.png</file>
+        <file alias="restore">sysmenu/restore.png</file>
+    </qresource>
+</RCC>
